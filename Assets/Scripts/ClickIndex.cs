@@ -15,6 +15,8 @@ public class ClickIndex : MonoBehaviour
     public GenerateCube generateCube;
     Vector2 firstMousePos;
     Vector2 secondMousePos;
+
+    private int a;
     
 
     public IEnumerator RotateX(int indexX, bool isPositive)
